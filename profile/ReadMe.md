@@ -5,8 +5,11 @@ Each repository also contains the code used by people involved in the task to pe
 
 If jupyter notebooks are used by the users, here only the code without the output should be pushed to the repositories. <br />
 *Suggestion*: To allow github to automatically push (when using git push) only the code without the output without modifying the local file do:
+
 ```pip install nbstripout```
+
 Then for each repository you clone, enter where the .git folder is and do:
+
 ```nbstripout --install```
 
 ## Project
